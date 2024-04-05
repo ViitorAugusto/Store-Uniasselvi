@@ -14,10 +14,11 @@ const handler = NextAuth({
           credentials?.email === "vitor@gmail.com" &&
           credentials?.password === "123"
         ) {
-          return { 
-            id : "1",
-            email: credentials.email, 
-            name: "Vitor" };
+          return {
+            id: "1",
+            email: credentials.email,
+            name: "Vitor",
+          };
         }
         // Return null if user data could not be retrieved
         return null;
