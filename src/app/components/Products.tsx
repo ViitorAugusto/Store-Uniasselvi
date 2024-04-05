@@ -44,10 +44,7 @@ export default function ProductsPage() {
     }
   };
 
-  if (loading) {
-    return <Spinner />;
-  }
-
+ 
   return (
     <>
       <Header />
