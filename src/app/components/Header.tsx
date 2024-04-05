@@ -161,7 +161,7 @@ export const Header = ({ showLinks = true }) => {
                   href="/products"
                   className="hover:text-primaryColor transition duration-500 ease-in-out"
                 >
-                  Roupas
+                  Produtos
                 </Link>
                 <Link
                   href="/"
