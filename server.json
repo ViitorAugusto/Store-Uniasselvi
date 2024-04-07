@@ -1,304 +1,344 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "Smartphone XPTO",
-            "description": "Última geração de smartphone com câmera de alta qualidade.",
-            "price": 999.99,
-            "currency": "USD",
-            "imageUrl": "https://cdn.dooca.store/292/products/camiseta-software-developer-aberta_620x620+fill_ffffff.jpg?v=1603305762",
-            "categories": [
-                "eletrônicos",
-                "smartphones",
-                "tecnologia"
-            ]
-        },
-        {
-            "id": 2,
-            "name": "Headphones XYZ",
-            "description": "Headphones com cancelamento de ruído e som de alta fidelidade.",
-            "price": 299.99,
-            "currency": "USD",
-            "imageUrl": "https://cdn.awsli.com.br/600x450/608/608801/produto/146207456/e4eb6021a7.jpg",
-            "categories": [
-                "acessórios",
-                "headphones",
-                "música"
-            ]
-        },
-        {
-            "id": 3,
-            "name": "Smartwatch ABC",
-            "description": "Relógio inteligente com diversas funcionalidades para saúde e conectividade.",
-            "price": 199.99,
-            "currency": "USD",
-            "imageUrl": "https://a-static.mlcdn.com.br/450x450/camiseta-camisa-code-coffee-repeat-programacao-computacao-blusa-100-algodao-nessa-stop/nessastop/746978bcce3411edbbd44201ac185033/e6aefd5d3c087990c1fc6f651c350bc5.jpeg",
-            "categories": [
-                "eletrônicos",
-                "smartwatches",
-                "saúde"
-            ]
-        },
-        {
-            "id": 4,
-            "name": "Tablet PRO",
-            "description": "Tablet com tela de alta resolução e desempenho para profissionais.",
-            "price": 599.99,
-            "currency": "USD",
-            "imageUrl": "https://rsv-ink-images-production.s3.sa-east-1.amazonaws.com/images/product_art/final_image/aa36661228f40e5064b26a40a6e571a4.webp",
-            "categories": [
-                "eletrônicos",
-                "tablets",
-                "profissional"
-            ]
-        },
-        {
-            "id": 5,
-            "name": "Laptop Ultra",
-            "description": "Laptop ultra leve com bateria de longa duração perfeito para viagens.",
-            "price": 1299.99,
-            "currency": "USD",
-            "imageUrl": "https://cdn.awsli.com.br/600x1000/927/927946/produto/78892064/e3a2998a6c.jpg",
-            "categories": [
-                "eletrônicos",
-                "laptops",
-                "viagens"
-            ]
-        },
-        {
-            "id": 6,
-            "name": "Monitor 4K",
-            "description": "Monitor 4K com cores vibrantes para uma experiência visual imersiva.",
-            "price": 349.99,
-            "currency": "USD",
-            "imageUrl": "https://via.placeholder.com/150",
-            "categories": [
-                "eletrônicos",
-                "monitores",
-                "visual"
-            ]
-        },
-        {
-            "id": 7,
-            "name": "Câmera DSLR",
-            "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
-            "price": 1099.99,
-            "currency": "USD",
-            "imageUrl": "https://via.placeholder.com/150",
-            "categories": [
-                "eletrônicos",
-                "câmeras",
-                "fotografia"
-            ]
-        }, {
-            "id": 8,
-            "name": "Câmera DSLR",
-            "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
-            "price": 1099.99,
-            "currency": "USD",
-            "imageUrl": "https://via.placeholder.com/150",
-            "categories": [
-                "eletrônicos",
-                "câmeras",
-                "fotografia"
-            ]
-        }, {
-            "id": 9,
-            "name": "Câmera DSLR",
-            "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
-            "price": 1099.99,
-            "currency": "USD",
-            "imageUrl": "https://via.placeholder.com/150",
-            "categories": [
-                "eletrônicos",
-                "câmeras",
-                "fotografia"
-            ]
-        }, {
-            "id": 10,
-            "name": "Câmera DSLR",
-            "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
-            "price": 1099.99,
-            "currency": "USD",
-            "imageUrl": "https://via.placeholder.com/150",
-            "categories": [
-                "eletrônicos",
-                "câmeras",
-                "fotografia"
-            ]
-        }, {
-            "id": 11,
-            "name": "Câmera DSLR",
-            "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
-            "price": 1099.99,
-            "currency": "USD",
-            "imageUrl": "https://via.placeholder.com/150",
-            "categories": [
-                "eletrônicos",
-                "câmeras",
-                "fotografia"
-            ]
-        }, {
-            "id": 12,
-            "name": "Câmera DSLR",
-            "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
-            "price": 1099.99,
-            "currency": "USD",
-            "imageUrl": "https://via.placeholder.com/150",
-            "categories": [
-                "eletrônicos",
-                "câmeras" ]
-        }
-    ],
-    "lojas": [
-        {
-            "id": 1,
-            "name": "Smartphone XPTO",
-            "description": "Última geração de smartphone com câmera de alta qualidade.",
-            "price": 999.99,
-            "currency": "USD",
-            "imageUrl": "https://cdn.dooca.store/292/products/camiseta-software-developer-aberta_620x620+fill_ffffff.jpg?v=1603305762",
-            "categories": [
-                "eletrônicos",
-                "smartphones",
-                "tecnologia"
-            ]
-        },
-        {
-            "id": 2,
-            "name": "Headphones XYZ",
-            "description": "Headphones com cancelamento de ruído e som de alta fidelidade.",
-            "price": 299.99,
-            "currency": "USD",
-            "imageUrl": "https://cdn.awsli.com.br/600x450/608/608801/produto/146207456/e4eb6021a7.jpg",
-            "categories": [
-                "acessórios",
-                "headphones",
-                "música"
-            ]
-        },
-        {
-            "id": 3,
-            "name": "Smartwatch ABC",
-            "description": "Relógio inteligente com diversas funcionalidades para saúde e conectividade.",
-            "price": 199.99,
-            "currency": "USD",
-            "imageUrl": "https://a-static.mlcdn.com.br/450x450/camiseta-camisa-code-coffee-repeat-programacao-computacao-blusa-100-algodao-nessa-stop/nessastop/746978bcce3411edbbd44201ac185033/e6aefd5d3c087990c1fc6f651c350bc5.jpeg",
-            "categories": [
-                "eletrônicos",
-                "smartwatches",
-                "saúde"
-            ]
-        },
-        {
-            "id": 4,
-            "name": "Tablet PRO",
-            "description": "Tablet com tela de alta resolução e desempenho para profissionais.",
-            "price": 599.99,
-            "currency": "USD",
-            "imageUrl": "https://rsv-ink-images-production.s3.sa-east-1.amazonaws.com/images/product_art/final_image/aa36661228f40e5064b26a40a6e571a4.webp",
-            "categories": [
-                "eletrônicos",
-                "tablets",
-                "profissional"
-            ]
-        },
-        {
-            "id": 5,
-            "name": "Laptop Ultra",
-            "description": "Laptop ultra leve com bateria de longa duração perfeito para viagens.",
-            "price": 1299.99,
-            "currency": "USD",
-            "imageUrl": "https://cdn.awsli.com.br/600x1000/927/927946/produto/78892064/e3a2998a6c.jpg",
-            "categories": [
-                "eletrônicos",
-                "laptops",
-                "viagens"
-            ]
-        },
-        {
-            "id": 6,
-            "name": "Monitor 4K",
-            "description": "Monitor 4K com cores vibrantes para uma experiência visual imersiva.",
-            "price": 349.99,
-            "currency": "USD",
-            "imageUrl": "https://via.placeholder.com/150",
-            "categories": [
-                "eletrônicos",
-                "monitores",
-                "visual"
-            ]
-        },
-        {
-            "id": 7,
-            "name": "Câmera DSLR",
-            "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
-            "price": 1099.99,
-            "currency": "USD",
-            "imageUrl": "https://via.placeholder.com/150",
-            "categories": [
-                "eletrônicos",
-                "câmeras",
-                "fotografia"
-            ]
-        }, {
-            "id": 8,
-            "name": "Câmera DSLR",
-            "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
-            "price": 1099.99,
-            "currency": "USD",
-            "imageUrl": "https://via.placeholder.com/150",
-            "categories": [
-                "eletrônicos",
-                "câmeras",
-                "fotografia"
-            ]
-        }, {
-            "id": 9,
-            "name": "Câmera DSLR",
-            "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
-            "price": 1099.99,
-            "currency": "USD",
-            "imageUrl": "https://via.placeholder.com/150",
-            "categories": [
-                "eletrônicos",
-                "câmeras",
-                "fotografia"
-            ]
-        }, {
-            "id": 10,
-            "name": "Câmera DSLR",
-            "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
-            "price": 1099.99,
-            "currency": "USD",
-            "imageUrl": "https://via.placeholder.com/150",
-            "categories": [
-                "eletrônicos",
-                "câmeras",
-                "fotografia"
-            ]
-        }, {
-            "id": 11,
-            "name": "Câmera DSLR",
-            "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
-            "price": 1099.99,
-            "currency": "USD",
-            "imageUrl": "https://via.placeholder.com/150",
-            "categories": [
-                "eletrônicos",
-                "câmeras",
-                "fotografia"
-            ]
-        }, {
-            "id": 12,
-            "name": "Câmera DSLR",
-            "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
-            "price": 1099.99,
-            "currency": "USD",
-            "imageUrl": "https://via.placeholder.com/150",
-            "categories": [
-                "eletrônicos",
-                "câmeras" ]
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "Smartphone XPTO",
+      "description": "Última geração de smartphone com câmera de alta qualidade.",
+      "price": 999.99,
+      "currency": "USD",
+      "imageUrl": "https://cdn.dooca.store/292/products/camiseta-software-developer-aberta_620x620+fill_ffffff.jpg?v=1603305762",
+      "categories": [
+        "eletrônicos",
+        "smartphones",
+        "tecnologia"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Headphones XYZ",
+      "description": "Headphones com cancelamento de ruído e som de alta fidelidade.",
+      "price": 299.99,
+      "currency": "USD",
+      "imageUrl": "https://cdn.awsli.com.br/600x450/608/608801/produto/146207456/e4eb6021a7.jpg",
+      "categories": [
+        "acessórios",
+        "headphones",
+        "música"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Smartwatch ABC",
+      "description": "Relógio inteligente com diversas funcionalidades para saúde e conectividade.",
+      "price": 199.99,
+      "currency": "USD",
+      "imageUrl": "https://a-static.mlcdn.com.br/450x450/camiseta-camisa-code-coffee-repeat-programacao-computacao-blusa-100-algodao-nessa-stop/nessastop/746978bcce3411edbbd44201ac185033/e6aefd5d3c087990c1fc6f651c350bc5.jpeg",
+      "categories": [
+        "eletrônicos",
+        "smartwatches",
+        "saúde"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Tablet PRO",
+      "description": "Tablet com tela de alta resolução e desempenho para profissionais.",
+      "price": 599.99,
+      "currency": "USD",
+      "imageUrl": "https://rsv-ink-images-production.s3.sa-east-1.amazonaws.com/images/product_art/final_image/aa36661228f40e5064b26a40a6e571a4.webp",
+      "categories": [
+        "eletrônicos",
+        "tablets",
+        "profissional"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Laptop Ultra",
+      "description": "Laptop ultra leve com bateria de longa duração perfeito para viagens.",
+      "price": 1299.99,
+      "currency": "USD",
+      "imageUrl": "https://cdn.awsli.com.br/600x1000/927/927946/produto/78892064/e3a2998a6c.jpg",
+      "categories": [
+        "eletrônicos",
+        "laptops",
+        "viagens"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Monitor 4K",
+      "description": "Monitor 4K com cores vibrantes para uma experiência visual imersiva.",
+      "price": 349.99,
+      "currency": "USD",
+      "imageUrl": "https://via.placeholder.com/150",
+      "categories": [
+        "eletrônicos",
+        "monitores",
+        "visual"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Câmera DSLR",
+      "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
+      "price": 1099.99,
+      "currency": "USD",
+      "imageUrl": "https://via.placeholder.com/150",
+      "categories": [
+        "eletrônicos",
+        "câmeras",
+        "fotografia"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Câmera DSLR",
+      "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
+      "price": 1099.99,
+      "currency": "USD",
+      "imageUrl": "https://via.placeholder.com/150",
+      "categories": [
+        "eletrônicos",
+        "câmeras",
+        "fotografia"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Câmera DSLR",
+      "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
+      "price": 1099.99,
+      "currency": "USD",
+      "imageUrl": "https://via.placeholder.com/150",
+      "categories": [
+        "eletrônicos",
+        "câmeras",
+        "fotografia"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Câmera DSLR",
+      "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
+      "price": 1099.99,
+      "currency": "USD",
+      "imageUrl": "https://via.placeholder.com/150",
+      "categories": [
+        "eletrônicos",
+        "câmeras",
+        "fotografia"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Câmera DSLR",
+      "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
+      "price": 1099.99,
+      "currency": "USD",
+      "imageUrl": "https://via.placeholder.com/150",
+      "categories": [
+        "eletrônicos",
+        "câmeras",
+        "fotografia"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Câmera DSLR",
+      "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
+      "price": 1099.99,
+      "currency": "USD",
+      "imageUrl": "https://via.placeholder.com/150",
+      "categories": [
+        "eletrônicos",
+        "câmeras"
+      ]
+    }
+  ],
+  "lojas": [
+    {
+      "id": 1,
+      "name": "Smartphone XPTO",
+      "description": "Última geração de smartphone com câmera de alta qualidade.",
+      "price": 999.99,
+      "currency": "USD",
+      "imageUrl": "https://cdn.dooca.store/292/products/camiseta-software-developer-aberta_620x620+fill_ffffff.jpg?v=1603305762",
+      "categories": [
+        "eletrônicos",
+        "smartphones",
+        "tecnologia"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Headphones XYZ",
+      "description": "Headphones com cancelamento de ruído e som de alta fidelidade.",
+      "price": 299.99,
+      "currency": "USD",
+      "imageUrl": "https://cdn.awsli.com.br/600x450/608/608801/produto/146207456/e4eb6021a7.jpg",
+      "categories": [
+        "acessórios",
+        "headphones",
+        "música"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Smartwatch ABC",
+      "description": "Relógio inteligente com diversas funcionalidades para saúde e conectividade.",
+      "price": 199.99,
+      "currency": "USD",
+      "imageUrl": "https://a-static.mlcdn.com.br/450x450/camiseta-camisa-code-coffee-repeat-programacao-computacao-blusa-100-algodao-nessa-stop/nessastop/746978bcce3411edbbd44201ac185033/e6aefd5d3c087990c1fc6f651c350bc5.jpeg",
+      "categories": [
+        "eletrônicos",
+        "smartwatches",
+        "saúde"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Tablet PRO",
+      "description": "Tablet com tela de alta resolução e desempenho para profissionais.",
+      "price": 599.99,
+      "currency": "USD",
+      "imageUrl": "https://rsv-ink-images-production.s3.sa-east-1.amazonaws.com/images/product_art/final_image/aa36661228f40e5064b26a40a6e571a4.webp",
+      "categories": [
+        "eletrônicos",
+        "tablets",
+        "profissional"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Laptop Ultra",
+      "description": "Laptop ultra leve com bateria de longa duração perfeito para viagens.",
+      "price": 1299.99,
+      "currency": "USD",
+      "imageUrl": "https://cdn.awsli.com.br/600x1000/927/927946/produto/78892064/e3a2998a6c.jpg",
+      "categories": [
+        "eletrônicos",
+        "laptops",
+        "viagens"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Monitor 4K",
+      "description": "Monitor 4K com cores vibrantes para uma experiência visual imersiva.",
+      "price": 349.99,
+      "currency": "USD",
+      "imageUrl": "https://via.placeholder.com/150",
+      "categories": [
+        "eletrônicos",
+        "monitores",
+        "visual"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Câmera DSLR",
+      "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
+      "price": 1099.99,
+      "currency": "USD",
+      "imageUrl": "https://via.placeholder.com/150",
+      "categories": [
+        "eletrônicos",
+        "câmeras",
+        "fotografia"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Câmera DSLR",
+      "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
+      "price": 1099.99,
+      "currency": "USD",
+      "imageUrl": "https://via.placeholder.com/150",
+      "categories": [
+        "eletrônicos",
+        "câmeras",
+        "fotografia"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Câmera DSLR",
+      "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
+      "price": 1099.99,
+      "currency": "USD",
+      "imageUrl": "https://via.placeholder.com/150",
+      "categories": [
+        "eletrônicos",
+        "câmeras",
+        "fotografia"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Câmera DSLR",
+      "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
+      "price": 1099.99,
+      "currency": "USD",
+      "imageUrl": "https://via.placeholder.com/150",
+      "categories": [
+        "eletrônicos",
+        "câmeras",
+        "fotografia"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Câmera DSLR",
+      "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
+      "price": 1099.99,
+      "currency": "USD",
+      "imageUrl": "https://via.placeholder.com/150",
+      "categories": [
+        "eletrônicos",
+        "câmeras",
+        "fotografia"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Câmera DSLR",
+      "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
+      "price": 1099.99,
+      "currency": "USD",
+      "imageUrl": "https://via.placeholder.com/150",
+      "categories": [
+        "eletrônicos",
+        "câmeras"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "a5f8",
+      "name": "Vitor Augusto",
+      "email": "vitoraugustodemattos@gmail.com",
+      "password": "123",
+      "confirmPassword": "123"
+    },
+    {
+      "id": "b538",
+      "name": "Camila a l Souza",
+      "email": "vitoraugusto2010201078@gmail.com",
+      "password": "123",
+      "confirmPassword": "123"
+    },
+    {
+      "id": "f49f",
+      "email": "vitoraugusto2010201078@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "e497",
+      "name": "Camila a l Souza",
+      "email": "camila@gmail.com",
+      "password": "123",
+      "confirmPassword": "123"
+    }
+  ]
 }
