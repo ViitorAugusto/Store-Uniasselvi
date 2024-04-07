@@ -9,38 +9,16 @@ const handler = NextAuth({
         email: { label: "Username", type: "text", placeholder: "jsmith" },
         password: { label: "Password", type: "password" },
       },
-      async authorize(credentials, req) {
-        if (!credentials) return null;
+      authorize: async credentials => {
+        if(!credentials) return null;
+        const res = await fetch(
+          "http://localhost:3333/users?email=" + credentials.email
+        );
+        const user = await res.json();
 
-        // Dados para login
-        const loginInfo = {
-          email: credentials.email,
-          password: credentials.password,
-        };
-
-        try {
-          // Solicitação POST para o endpoint de login
-          const response = await fetch("http://localhost:3333/login", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify(loginInfo),
-          });
-
-          const user = await response.json();
-
-          if (response.ok && user) {
-            return {
-              id: user.id,
-              email: user.email,
-              name: user.name,
-            };
-          } else {
-            return null;
-          }
-        } catch (error) {
-          console.error("Erro ao fazer login:", error);
+        if (user.length > 0 && user[0].password === credentials.password) {
+          return { id: user[0].id, email: user[0].email };
+        } else {
           return null;
         }
       },
