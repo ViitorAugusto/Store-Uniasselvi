@@ -175,6 +175,12 @@ export const Header = ({ showLinks = true }) => {
                 >
                   Register
                 </Link>
+                <Link
+                  href="/private"
+                  className="hover:text-primaryColor transition duration-500 ease-in-out"
+                >
+                  Rota Privada
+                </Link>
               </>
             )}
 

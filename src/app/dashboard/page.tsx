@@ -11,7 +11,7 @@ export default async function AdminDashboard() {
   return (
     <div className="flex p-10" style={{ minHeight: "100vh" }}>
       <p>
-        {session.user?.email}
+        <span className="bg-green-400">{session.user?.email}</span>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
         assumenda quasi quisquam nostrum iusto velit quis debitis, illum
         repellendus nemo, cum nesciunt, temporibus laudantium sint animi

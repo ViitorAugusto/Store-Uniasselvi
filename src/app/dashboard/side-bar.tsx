@@ -1,11 +1,11 @@
 "use client";
 import { motion } from "framer-motion";
 import { getServerSession } from "next-auth";
-import { getSession, useSession } from "next-auth/react";
+import { getSession, signOut, useSession } from "next-auth/react";
 import { useState } from "react";
 
-export default function Sidebar() {
-   const session = getSession();
+export default  function Sidebar() {
+  const {data : session} = useSession();
   const [isOpen, setIsOpen] = useState(true);
 
   const variants = {
@@ -35,8 +35,8 @@ export default function Sidebar() {
         </ul>
 
         <ul>
-          <li> </li>
-          <li>Sair</li>
+          <li>{session?.user?.email}</li>
+          <li onClick={() => signOut()}>Sair</li>
         </ul>
       </nav>
     </motion.div>
