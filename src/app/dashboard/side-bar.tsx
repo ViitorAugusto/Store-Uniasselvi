@@ -1,14 +1,17 @@
 "use client";
 import { motion } from "framer-motion";
+import { getServerSession } from "next-auth";
+import { getSession, useSession } from "next-auth/react";
 import { useState } from "react";
 
 export default function Sidebar() {
+   const session = getSession();
   const [isOpen, setIsOpen] = useState(true);
 
- const variants = {
-   open: { flexBasis: "250px" },
-   closed: { flexBasis: "0px" },
- };
+  const variants = {
+    open: { flexBasis: "250px" },
+    closed: { flexBasis: "0px" },
+  };
 
   return (
     <motion.div
@@ -32,7 +35,7 @@ export default function Sidebar() {
         </ul>
 
         <ul>
-          <li >Usuário</li>
+          <li> </li>
           <li>Sair</li>
         </ul>
       </nav>

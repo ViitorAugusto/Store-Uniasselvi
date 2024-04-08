@@ -170,10 +170,10 @@ export const Header = ({ showLinks = true }) => {
                   Acessórios
                 </Link>
                 <Link
-                  href="/contact"
+                  href="/register"
                   className="hover:text-primaryColor transition duration-500 ease-in-out"
                 >
-                  Quem somos
+                  Register
                 </Link>
               </>
             )}

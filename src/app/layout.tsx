@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body
-        className={`${inter.className} ${roboto.className} ${montserrat.className}`}
+        className={`${inter.className} ${roboto.className} ${montserrat.className} `}
         suppressHydrationWarning={true}
       >
         {children}
