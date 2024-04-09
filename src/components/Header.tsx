@@ -4,7 +4,9 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { IoSearchOutline } from "react-icons/io5";
+import { IoCartOutline, IoSearchOutline } from "react-icons/io5";
+import { FaRegUserCircle } from "react-icons/fa";
+import { RiShoppingCart2Line } from "react-icons/ri";
 
 export const Header = ({ showLinks = true }) => {
   const router = useRouter();
@@ -63,7 +65,7 @@ export const Header = ({ showLinks = true }) => {
   );
 
   return (
-    <div className="pb-20">
+    <div className="pb-20 ">
       <motion.header
         // initial={{ opacity: 0, y: -80 }}
         // whileInView={{ opacity: 1, y: 0 }}
@@ -77,7 +79,7 @@ export const Header = ({ showLinks = true }) => {
       >
         <div
           onClick={() => router.push("/")}
-          className="z-10 sm:pl-20 cursor-pointer "
+          className="z-10   cursor-pointer "
         >
           <Image
             src="/logoSemFundo2.png"
@@ -141,7 +143,7 @@ export const Header = ({ showLinks = true }) => {
         </AnimatePresence>
         {!isOpen && (
           <div
-            className={`hidden lg:flex justify-end items-center flex-1 gap-8  font-montserrat font-semibold`}
+            className={`hidden lg:flex justify-end items-center flex-1 gap-6  font-montserrat font-semibold `}
           >
             {showLinks && (
               <>
@@ -151,12 +153,7 @@ export const Header = ({ showLinks = true }) => {
                 >
                   Lançamentos
                 </Link>
-                <Link
-                  href="/search"
-                  className="hover:text-primaryColor transition duration-500 ease-in-out"
-                >
-                  Tênis
-                </Link>
+
                 <Link
                   href="/products"
                   className="hover:text-primaryColor transition duration-500 ease-in-out"
@@ -175,16 +172,32 @@ export const Header = ({ showLinks = true }) => {
                 >
                   Register
                 </Link>
+
                 <Link
-                  href="/private"
+                  href="/login"
                   className="hover:text-primaryColor transition duration-500 ease-in-out"
                 >
-                  Rota Privada
+                  <FaRegUserCircle className="size-5" />
                 </Link>
+                <button
+                  className=" text-2xl hover:text-blue-600 transition duration-300 ease-in-out relative"
+                  onClick={() => {
+                    console.log("Abrindo Drawer");
+                    //setIsDrawerOpen(true);
+                  }}
+                >
+                  <RiShoppingCart2Line className="size-5" />
+                  
+                  {/* {favorites.length > 0 && (
+                    <span className="absolute top-0 right-0 translate-x-1/2 -translate-y-1/2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full">
+                      {favorites.length}
+                    </span>
+                  )} */}
+                </button>
               </>
             )}
 
-            <div className=" flex justify-center items-center relative w-96 ">
+            {/* <div className=" flex justify-center items-center relative w-96 ">
               <input
                 type="text"
                 placeholder="Buscar..."
@@ -192,7 +205,7 @@ export const Header = ({ showLinks = true }) => {
                 text-zinc-800 focus:outline-none focus:ring-1 focus:ring-primaryColor focus:border-transparent transition duration-500 ease-in-out"
               />
               <IoSearchOutline className="absolute right-2 size-6 text-zinc-400 " />
-            </div>
+            </div> */}
           </div>
         )}
         <style jsx>{`

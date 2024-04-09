@@ -7,6 +7,12 @@ import { InputRegister } from "../register/input-register";
 import { LoginUser, LoginUserSchema } from "@/@types/logintUser";
 import { signIn } from "next-auth/react";
 import { redirect } from "next/navigation";
+import { useRouter } from "next/router";
+
+const router = useRouter();
+
+// Para redirecionar
+
 export const LoginRegister = () => {
   const {
     handleSubmit,
@@ -39,7 +45,8 @@ export const LoginRegister = () => {
         });
       });
     } else {
-      console.log("Usuário logado:", result);
+     router.push("/");
+      
     }
     console.log(data);
   };

@@ -1,4 +1,4 @@
-import { AuthProvider } from "../../../providers/auth-providers";
+import { AuthProvider } from "../../providers/auth-providers";
 import Sidebar from "./side-bar";
 
 export default function RootLayout({
