@@ -16,11 +16,18 @@ const config: Config = {
       colors: {
         primaryColor: "#02253b",
         greenLimon: "#67FEA3",
-        grayText: "#464646",
+        grayText: "#757575",
         blackLogo: "#0b151b",
         fleekyFull: "#41DE80",
         fleekyStore: "#8C7BFF",
         linkTextBlue: "#2196F3",
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
+        
       },
     },
   },

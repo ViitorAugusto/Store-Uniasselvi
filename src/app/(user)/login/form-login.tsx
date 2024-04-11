@@ -3,20 +3,17 @@ import { RegisterUser, RegisterUserSchema } from "@/@types/registerUser";
 
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
-import { InputRegister } from "../register/input-register";
+import { Input } from "../../../components/Input";
 import { LoginUser, LoginUserSchema } from "@/@types/logintUser";
 import { signIn } from "next-auth/react";
-import { redirect } from "next/navigation";
-import { useRouter } from "next/router";
-
-const router = useRouter();
+import Link from "next/link";
 
 // Para redirecionar
 
 export const LoginRegister = () => {
   const {
     handleSubmit,
-    formState: { isSubmitting },
+    formState: { isSubmitting, errors },
     reset,
     control,
     getValues,
@@ -45,43 +42,49 @@ export const LoginRegister = () => {
         });
       });
     } else {
-     router.push("/");
-      
     }
     console.log(data);
   };
   return (
     <form
-      className="flex flex-col  w-full px-2"
+      className="flex flex-col space-y-4 w-full"
       onSubmit={handleSubmit(onSubmit)}
     >
-      <InputRegister
+      <Input
         label="E-mail"
         placeholder="E-mail"
         type="email"
         name="email"
         control={control}
+        showError={false}
       />
-      <InputRegister
-        label="Senha"
-        placeholder="Senha"
-        type="password"
-        name="password"
-        control={control}
-        isPassword
-      />
+      <div>
+        <Input
+          label="Senha"
+          placeholder="Senha"
+          type="password"
+          name="password"
+          control={control}
+          isPassword
+          showError={false}
+        />
+        {errors.email && errors.password && (
+          <small className="block text-xs text-red-500 p-1 ">
+            {errors.email.message}
+          </small>
+        )}
+      </div>
+
+      <div className="py-4 text-sm text-grayText">
+        Ao continuar, afirmo que concordo com a Política de privacidade e os
+        Termos de uso da Fashion Starage.
+      </div>
 
       <button
         type="submit"
-        className="bg-primaryColor text-white py-2 uppercase rounded my-5"
+        className="bg-black text-white py-2 uppercase font-bold tracking-wider rounded my-5 h-12 shadow hover:opacity-80 transition-colors duration-300"
       >
-        {isSubmitting ? (
-          <div className="flex justify-center items-center">
-            <div className="spinner"></div>
-          </div>
-        ) : (
-          "Entrar"
-        )}
+        Entrar
       </button>
     </form>
   );

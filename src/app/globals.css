@@ -3,6 +3,27 @@
 @tailwind utilities;
 
 
-body {
-  background: #dcdcdc;
+/* @layer components {
+  .link-hover-underline::after {
+    @apply absolute inset-x-0 bottom-0 w-full bg-current h-0.5 scale-x-0 origin-left transition-transform duration-500 ease-in-out;
+    content: '';
+  }
+
+  .link-hover-underline:hover::after {
+    @apply scale-x-100;
+  }
+} */
+@layer components {
+  .link-underline::after {
+    @apply absolute bg-current h-0.5 transition-all duration-500 ease-in-out;
+    content: '';
+    width: 0%; /* Começa sem comprimento */
+    bottom: 0; /* Posicionado na base do texto */
+  }
+
+  .link-underline:hover::after {
+    @apply w-full; /* Expande para a largura total do texto em hover */
+  }
 }
+
+

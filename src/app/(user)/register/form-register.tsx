@@ -1,6 +1,6 @@
 "use client";
 import { RegisterUser, RegisterUserSchema } from "@/@types/registerUser";
-import { InputRegister } from "./input-register";
+import { InputRegister } from "../../../components/Input";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 
@@ -23,7 +23,6 @@ export const FormRegister = () => {
   });
 
   const onSubmit = async (data: RegisterUser) => {
-
     const url = "http://localhost:3333/users";
     const checkEmail = getValues("email");
 
