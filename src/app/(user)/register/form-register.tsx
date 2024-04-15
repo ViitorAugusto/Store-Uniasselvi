@@ -1,8 +1,9 @@
 "use client";
 import { RegisterUser, RegisterUserSchema } from "@/@types/registerUser";
-import { InputRegister } from "../../../components/Input";
+import { Input } from "../../../components/Input";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
+import { Button } from "@/components/Button";
 
 export const FormRegister = () => {
   const {
@@ -61,51 +62,54 @@ export const FormRegister = () => {
   };
   return (
     <form
-      className="flex flex-col  w-full px-2"
+      className="flex flex-col w-full"
       onSubmit={handleSubmit(onSubmit)}
     >
-      <InputRegister
-        control={control}
-        label="Nome"
-        placeholder="Nome"
-        type="text"
-        name="name"
-      />
-      <InputRegister
+      <div className="flex gap-3">
+        <Input
+          control={control}
+          label="Nome"
+          placeholder="Nome"
+          type="text"
+          name="name"
+          showError
+        />
+        <Input
+          control={control}
+          label="Sobrenome"
+          placeholder="Sobrenome*"
+          type="text"
+          name="lastName"
+          showError
+        />
+      </div>
+      <Input
         label="E-mail"
-        placeholder="E-mail"
+        placeholder="Digite seu e-mail"
         type="email"
         name="email"
         control={control}
+        showError
       />
-      <InputRegister
+      <Input
         control={control}
         name="password"
         label="Password"
         placeholder="Digite sua senha"
         type="password"
         isPassword
+        showError
       />
-      <InputRegister
+      <Input
         label="Confirme a senha"
-        placeholder="Confirme a senha"
+        placeholder="Digite sua senha novamente"
         type="password"
         isPassword
         name="confirmPassword"
         control={control}
+        showError
       />
-      <button
-        type="submit"
-        className="bg-primaryColor text-white py-2 uppercase rounded my-5"
-      >
-        {isSubmitting ? (
-          <div className="flex justify-center items-center">
-            <div className="spinner"></div>
-          </div>
-        ) : (
-          " Cadastrar"
-        )}
-      </button>
+      <Button />
     </form>
   );
 };

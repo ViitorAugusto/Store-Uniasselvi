@@ -1,12 +1,10 @@
 "use client";
-import { RegisterUser, RegisterUserSchema } from "@/@types/registerUser";
-
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { Input } from "../../../components/Input";
 import { LoginUser, LoginUserSchema } from "@/@types/logintUser";
 import { signIn } from "next-auth/react";
-import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 // Para redirecionar
 
@@ -25,14 +23,15 @@ export const LoginRegister = () => {
     },
     resolver: zodResolver(LoginUserSchema),
   });
-
+  const router = useRouter();
   const onSubmit = async (data: LoginUser) => {
     const passwordValue = getValues("password");
     const emailValue = getValues("email");
     const result = await signIn("credentials", {
       password: passwordValue,
       email: emailValue,
-      redirect: false,
+      redirect: true,
+      callbackUrl: "/",
     });
     if (result?.error) {
       (["email", "password"] as const).forEach(field => {
@@ -41,7 +40,9 @@ export const LoginRegister = () => {
           message: "Email e/ou senha inválidos",
         });
       });
-    } else {
+    }
+    if (result?.ok) {
+      router.push("/");
     }
     console.log(data);
   };

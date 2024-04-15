@@ -22,16 +22,17 @@ export default function Login () {
             Ainda não tem uma conta?{" "}
             <span className="py-4 text-sm text-gray-500">
               Ainda não tem uma conta?
-              <a
+              <Link
                 href="/register"
                 className="font-bold text-black/80 bg-gradient-to-r from-transparent via-black/0 to-transparent hover:via-black/80 bg-[length:0%_1px] bg-no-repeat bg-left-bottom hover:bg-[length:100%_1px] transition-all duration-500 ease-in-out"
               >
                 {""} Cadastre-se
-              </a>
+              </Link>
             </span>
           </span>
 
           <LoginRegister />
+       
         </div>
       </div>
     );

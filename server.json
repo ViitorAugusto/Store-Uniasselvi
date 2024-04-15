@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Smartphone XPTO",
       "description": "Última geração de smartphone com câmera de alta qualidade.",
       "price": 999.99,
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Headphones XYZ",
       "description": "Headphones com cancelamento de ruído e som de alta fidelidade.",
       "price": 299.99,
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Smartwatch ABC",
       "description": "Relógio inteligente com diversas funcionalidades para saúde e conectividade.",
       "price": 199.99,
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Tablet PRO",
       "description": "Tablet com tela de alta resolução e desempenho para profissionais.",
       "price": 599.99,
@@ -53,7 +53,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Laptop Ultra",
       "description": "Laptop ultra leve com bateria de longa duração perfeito para viagens.",
       "price": 1299.99,
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Monitor 4K",
       "description": "Monitor 4K com cores vibrantes para uma experiência visual imersiva.",
       "price": 349.99,
@@ -79,7 +79,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Câmera DSLR",
       "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
       "price": 1099.99,
@@ -92,7 +92,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Câmera DSLR",
       "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
       "price": 1099.99,
@@ -105,7 +105,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Câmera DSLR",
       "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
       "price": 1099.99,
@@ -118,7 +118,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Câmera DSLR",
       "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
       "price": 1099.99,
@@ -131,7 +131,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Câmera DSLR",
       "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
       "price": 1099.99,
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Câmera DSLR",
       "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
       "price": 1099.99,
@@ -158,7 +158,7 @@
   ],
   "lojas": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Smartphone XPTO",
       "description": "Última geração de smartphone com câmera de alta qualidade.",
       "price": 999.99,
@@ -171,7 +171,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Headphones XYZ",
       "description": "Headphones com cancelamento de ruído e som de alta fidelidade.",
       "price": 299.99,
@@ -184,7 +184,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Smartwatch ABC",
       "description": "Relógio inteligente com diversas funcionalidades para saúde e conectividade.",
       "price": 199.99,
@@ -197,7 +197,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Tablet PRO",
       "description": "Tablet com tela de alta resolução e desempenho para profissionais.",
       "price": 599.99,
@@ -210,7 +210,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Laptop Ultra",
       "description": "Laptop ultra leve com bateria de longa duração perfeito para viagens.",
       "price": 1299.99,
@@ -223,7 +223,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Monitor 4K",
       "description": "Monitor 4K com cores vibrantes para uma experiência visual imersiva.",
       "price": 349.99,
@@ -236,7 +236,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Câmera DSLR",
       "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
       "price": 1099.99,
@@ -249,7 +249,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Câmera DSLR",
       "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
       "price": 1099.99,
@@ -262,7 +262,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Câmera DSLR",
       "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
       "price": 1099.99,
@@ -275,7 +275,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Câmera DSLR",
       "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
       "price": 1099.99,
@@ -288,7 +288,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Câmera DSLR",
       "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
       "price": 1099.99,
@@ -301,7 +301,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Câmera DSLR",
       "description": "Câmera DSLR para amantes de fotografia que buscam qualidade profissional.",
       "price": 1099.99,
@@ -339,6 +339,14 @@
       "email": "camila@gmail.com",
       "password": "123",
       "confirmPassword": "123"
+    },
+    {
+      "id": "09d7",
+      "name": "Augusto",
+      "lastName": "De Mattos",
+      "email": "mattos@gmail.com",
+      "password": "Senha123!",
+      "confirmPassword": "Senha123!"
     }
   ]
 }
