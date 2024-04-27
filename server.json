@@ -347,6 +347,22 @@
       "email": "mattos@gmail.com",
       "password": "Senha123!",
       "confirmPassword": "Senha123!"
+    },
+    {
+      "id": "fd39",
+      "name": "Camila",
+      "lastName": "Alves",
+      "email": "camila12@gmail.com",
+      "password": "123",
+      "confirmPassword": "123"
+    },
+    {
+      "id": "26c4",
+      "name": "Camila",
+      "lastName": "Souza",
+      "email": "vitor@gmail.com",
+      "password": "1231",
+      "confirmPassword": "1231"
     }
   ]
 }

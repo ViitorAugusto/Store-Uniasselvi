@@ -48,7 +48,7 @@ export const LoginRegister = () => {
   };
   return (
     <form
-      className="flex flex-col space-y-4 w-full"
+      className="flex flex-col space-y-1 w-full"
       onSubmit={handleSubmit(onSubmit)}
     >
       <Input

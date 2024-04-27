@@ -13,7 +13,7 @@ export const RegisterUserSchema = z.object({
       required_error: "Sobrenome é obrigatório",
     })
     .min(3, {
-      message: "Sobrenome deve ter no mínimo 3 caracteres",
+      message: "deve ter no mínimo 3 caracteres",
     }),
   email: z
     .string({

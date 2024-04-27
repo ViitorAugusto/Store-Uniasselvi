@@ -8,6 +8,9 @@ import { FaHeart, FaRegHeart } from "react-icons/fa";
 import { MdAddShoppingCart } from "react-icons/md";
 import { IoCartOutline } from "react-icons/io5";
 import { Header } from "./Header";
+import Carousel from "./carousel";
+import Image from "next/image";
+import { Advantage } from "./advantage";
 
 export default function ProductsPage() {
   const [products, setProducts] = useState<Product[]>([]);
@@ -47,10 +50,9 @@ export default function ProductsPage() {
   if (loading) {
     return <Spinner />;
   }
- 
+
   return (
     <>
-      <Header />
       {/* <header className="bg-zinc-400 flex justify-between p-4 cursor-pointer">
                 <div>Logo</div>
                 <ul className="flex gap-6 justify-center items-center">
@@ -72,13 +74,15 @@ export default function ProductsPage() {
                     </button>
                 </ul>
             </header> */}
-      <div className="p-8">
+
+      <Carousel />
+      <div className="">
         <Drawer
           isOpen={isDrawerOpen}
           onClose={() => setIsDrawerOpen(false)}
           favorites={favorites}
         />
-
+        <Advantage />
         <h1 className="text-2xl font-bold mb-8">Produtos</h1>
 
         <div className="grid md:grid-cols-3 gap-4">
